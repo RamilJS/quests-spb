@@ -1,0 +1,62 @@
+function SocialIcons(): JSX.Element {
+  return (
+    <div className="socials">
+      <ul className="socials__list">
+        <li className="socials__item">
+          <a
+            className="socials__link"
+            href="#"
+            aria-label="Skype"
+            target="_blank"
+            rel="nofollow noopener noreferrer"
+          >
+            <svg
+              className="socials__icon socials__icon--default"
+              width={28}
+              height={28}
+              aria-hidden="true"
+            >
+              <use xlinkHref="#icon-skype-default" />
+            </svg>
+            <svg
+              className="socials__icon socials__icon--interactive"
+              width={28}
+              height={28}
+              aria-hidden="true"
+            >
+              <use xlinkHref="#icon-skype-interactive" />
+            </svg>
+          </a>
+        </li>
+        <li className="socials__item">
+          <a
+            className="socials__link"
+            href="#"
+            aria-label="ВКонтакте"
+            target="_blank"
+            rel="nofollow noopener noreferrer"
+          >
+            <svg
+              className="socials__icon socials__icon--default"
+              width={28}
+              height={28}
+              aria-hidden="true"
+            >
+              <use xlinkHref="#icon-vk-default" />
+            </svg>
+            <svg
+              className="socials__icon socials__icon--interactive"
+              width={28}
+              height={28}
+              aria-hidden="true"
+            >
+              <use xlinkHref="#icon-vk-interactive" />
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  );
+}
+
+export default SocialIcons;
